@@ -1,4 +1,4 @@
-const sound = ["sounds/C2.mp3", "sounds/Cs2.mp3", "sounds/D2.mp3", "sounds/Ds2.mp3", "sounds/E2.mp3", "sounds/F2.mp3", "sounds/Fs2.mp3", "sounds/G2.mp3", "sounds/Gs2.mp3", "sounds/A2.mp3", "sounds/As2.mp3", "sounds/B2.mp3", "sounds/3.mp3"];
+const sound = ["sounds/C2.mp3", "sounds/Cs2.mp3", "sounds/D2.mp3", "sounds/Ds2.mp3", "sounds/E2.mp3", "sounds/F2.mp3", "sounds/Fs2.mp3", "sounds/G2.mp3", "sounds/Gs2.mp3", "sounds/A2.mp3", "sounds/As2.mp3", "sounds/B2.mp3", "sounds/C3.mp3"];
 let random = 0;
 let on = 0;
 let setint = null;

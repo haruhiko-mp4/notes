@@ -75,6 +75,8 @@ img{
   bottom: 40px;
   right: 32px;
   cursor: pointer;
+
+  user-select: none;
 }
 .shiro{
   width: 48px;
@@ -91,6 +93,8 @@ img{
   right: 104px;
   cursor: pointer;
   height: 120px;
+
+  user-select: none;
 }
 .kuro{
   width: 48px;
