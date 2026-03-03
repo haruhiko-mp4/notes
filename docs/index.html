@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>s</title>
+  <link rel="icon" href="/favicon.ico">
+
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<script src="main.js"></script>
+<script src="play.js"></script>
+
+
+
+<h1>Hearing notes</h1>
+<p>
+  "Start"を押してから、4秒おきにランダムな音が鳴ります。<br>
+  聞こえてくる音階に対応する鍵盤UIを押して回答しましょう。<br>
+  <br>
+  PCではキーボードからも音を鳴らして回答することができます。<br>
+  (Q W E R T Y U I に白鍵、2 3 5 6 7に黒鍵が対応します。)<br>
+  <br>
+  制作：土屋晴彦 <a href="https://x.com/haruhiko_mp4" target="_blank">@haruhiko_mp4</a>
+</p>
+<div id="box2"></div>
+<p id="eibun">
+  When you press "Start" button,<br>
+  a random sound will be played every 4 seconds.<br>
+  Please answer by pressing the key that corresponds to the scale you hear.<br>
+  <br>
+  If you are using a PC, you can also answer using the keyboard.<br>
+  (Q, W, E, R, T, Y, U, I, 2, 3, 5, 6, 7)
+</p>
+
+
+<p class="start" onclick="start();">Start</p>
+<div id="answer"></div>
+<img src="qr.png">
+<div id="box"></div>
+<div id="box3"></div>
+
+
+
+<p id="text1" class="color">200</p>
+<div id="color1" class="color"></div>
+<p id="text2" class="color">64</p>
+<div id="color2" class="color"></div>
+<p id="text3" class="color">248</p>
+<div id="color3" class="color"></div>
+
+<p id="text4">HTML, CSS, JavaScript</p>
+
+
+
+
+
+<div class="hakken">
+  <div class="shiro" id="C" onclick="play_C();"></div>  <!-- idは押された時色変える用(pushed) -->
+  <div class="shiro" id="D" onclick="play_D();"></div>
+  <div class="shiro" id="E" onclick="play_E();"></div>
+  <div class="shiro" id="F" onclick="play_F();"></div>
+  <div class="shiro" id="G" onclick="play_G();"></div>
+  <div class="shiro" id="A" onclick="play_A();"></div>
+  <div class="shiro" id="B" onclick="play_B();"></div>
+  <div class="shiro" id="C3" onclick="play_C3();"></div>
+</div>
+
+<div class="kokken">
+  <div class="kuro" id="C_sh" onclick="play_C_sh();"></div>
+  <div class="kuro" id="D_sh" onclick="play_D_sh();" style="margin-right: 48px;"></div>
+  <div class="kuro" id="F_sh" onclick="play_F_sh();"></div>
+  <div class="kuro" id="G_sh" onclick="play_G_sh();"></div>
+  <div class="kuro" id="A_sh" onclick="play_A_sh();"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<audio id="audio1"></audio> <!-- ランダム再生用 -->
+<audio id="audio2"></audio> <!-- 鍵盤用 -->
+<audio id="audio3"></audio> <!-- ↓ -->
+<audio id="audio4"></audio>
+<audio id="audio5"></audio>
+<audio id="audio6"></audio>
+<audio id="audio7"></audio>
+<audio id="audio8"></audio>
+<audio id="audio9"></audio>
+<audio id="audio10"></audio>
+<audio id="audio11"></audio>
+<audio id="audio12"></audio>
+<audio id="audio13"></audio>
+<audio id="audio14"></audio>
+
+  
+</body>
+</html>
